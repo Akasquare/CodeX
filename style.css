@@ -144,7 +144,7 @@ a:hover{
     height: 50%;
 
   }
-  
+
 }
 /* @media (max-width: 660px){
   .icon{
@@ -231,7 +231,7 @@ display: flex;
   font-size: 4vw;
   word-wrap: break-word;
   color: #fff;
-  font-family: poppin sans-serif;
+  font-family:   sans-serif;
 }
 .cnt1aa span{
   color: rgb(240, 10, 171);
