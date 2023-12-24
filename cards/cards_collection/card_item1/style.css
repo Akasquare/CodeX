@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Raleway", Arial, sans-serif;
-  background: #7fad8b;
+  background: #7cb3f74f;
 }
 
 .card {
@@ -32,28 +32,48 @@ body {
   height: 100%;
   transform: translateY(-80px);
     z-index: 99;  
-  
+     
 }
 
 img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  
 }
-
+/* #cnt{
+  background-color: antiquewhite;
+  padding: 20px 20px;
+} */
 .content {
   padding: 10px 20px;
   text-align: center;
   transform: translateY(-450px);
   opacity: 0;
+  /* background-image: url(https://www.filmibeat.com/fanimg/dear-zindagi-photos-images-52002.jpg); */
   transition: 0.3s;
+  url{
+    background-size: contain;
+  }
 }
+
 
 .card:hover > .content {
   opacity: 1;
-   transform: translateY(-180px); 
+   transform: translateY(-150px); 
+  
+   
 }
+.card:hover{
+  
+  background-image: url(https://th.bing.com/th/id/OIP.-Wm7JWQpanWVRY7A6LqycwHaE7?w=264&h=180&c=7&r=0&o=5&pid=1.7);
+ background-size: cover;
+ background-repeat: no-repeat;
+  
 
+}
+ 
 .content h2 {
-  color: #5d6c74;
+  color: #636a84;
+  
 }
