@@ -153,7 +153,7 @@ a:hover{
   /* display: cover; */
   width: 100%;
   height: 100%;
-  background-color: rgba(180, 62, 62, 0.094);
+  background-color: rgb(0, 0, 0);
   position: relative;
   display: flex;
   justify-content: space-evenly;
@@ -175,17 +175,17 @@ a:hover{
     font-size: 16px;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+   
     border-radius: 8px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.901),
                 2px 2px 3px rgb(5, 5, 5),
-                3px 3px 3px rgb(5, 5, 5),
-                4px 4px 3px rgba(220, 10, 231, 0.901),
-                5px 5px 3px rgb(242, 0, 255),
-                6px 6px 3px rgb(242, 0, 255),
-                7px 7px 3px rgb(5, 5, 5),
-                8px 8px 3px rgb(5, 5, 5),
-                9px 9px 3px rgb(5, 5, 5);
+                3px 3px 3px rgb(0, 0, 0),
+                4px 4px 3px rgb(0, 0, 0),
+                5px 5px 3px rgb(0, 0, 0),
+                6px 6px 3px rgb(0, 0, 0),
+                7px 7px 1px rgb(251, 251, 251),
+                8px 8px 1px rgb(255, 255, 255),
+                9px 9px 1px rgb(255, 255, 255);
     
     display: flex;
     flex-direction: column;
@@ -193,6 +193,7 @@ a:hover{
     justify-content:center;
     text-align: center;
     background-size: cover;
+   
  
     .vidfram{
       height: 100%;
@@ -214,6 +215,7 @@ a:hover{
       background: linear-gradient(45deg, rgba(255, 4, 242, 0.455) 0%, rgba(69, 169, 202, 0.418)  100%); 
         transition: all .3s ease;  
         transform: scale(1.01);  
+        box-shadow:  0px 10px 120px rgba(90, 255, 25, 0.418);
     }
   
     .button-wrapper{
