@@ -300,7 +300,7 @@ display: flex;
   border: 1px solid rgba(255, 255, 255, 0.303); 
    
   padding: 15px;  
-   background: linear-gradient(45deg, rgba(213, 70, 206, 0.453) 0%, rgb(71, 164, 195)  100%); 
+   background: linear-gradient(45deg, rgba(240, 69, 235, 0.571) 0%, rgb(71, 164, 195)  100%); 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -309,8 +309,8 @@ display: flex;
   background-size: cover;
 }
 .container_str:hover{
-  filter: drop-shadow(0px  0px 10px rgba(253, 44, 239, 0.664));
-  box-shadow: 2px 4px 12px rgba(255, 252, 252, 0.312);
+  /* filter: drop-shadow(0px  0px 10px rgba(230, 86, 165, 0.804)); */
+   box-shadow:  0px 10px 120px rgba(86, 221, 32, 0.418); 
   transition: .25S;
 }
 .wrapper {
@@ -320,11 +320,11 @@ display: flex;
 }
 
 .card1 .banner-image {
-  background-image: url(imgs/lp1.jpg);
+  background-image: url(https://images.wondershare.com/mockitt/examples/yoursite.jpg);
   background-position: center;
   background-size: cover;
   height:70%;
-  
+   z-index: 99999999; 
   width: 100%;
   border-radius: 12px;
   border: 1px solid rgba(60, 200, 255, 0.845)
@@ -335,6 +335,7 @@ display: flex;
   background-size: cover;
   height:70%;
   width: 100%;
+  z-index: 999;
   border-radius: 12px;
   border: 1px solid rgba(60, 200, 255, 0.845)
 }
@@ -343,6 +344,7 @@ display: flex;
   background-position: center;
   background-size: cover;
   height:70%;
+  z-index: 99;
   width: 100%;
   border-radius: 12px;
   border: 1px solid rgba(60, 200, 255, 0.845)

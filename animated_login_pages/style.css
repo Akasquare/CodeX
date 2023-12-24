@@ -177,7 +177,16 @@ a:hover{
     margin-bottom: 100px;
     
     border-radius: 8px;
-    box-shadow: 2px 4px 12px rgba(220, 10, 231, 0.901);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.901),
+                2px 2px 3px rgb(5, 5, 5),
+                3px 3px 3px rgb(5, 5, 5),
+                4px 4px 3px rgba(220, 10, 231, 0.901),
+                5px 5px 3px rgb(242, 0, 255),
+                6px 6px 3px rgb(242, 0, 255),
+                7px 7px 3px rgb(5, 5, 5),
+                8px 8px 3px rgb(5, 5, 5),
+                9px 9px 3px rgb(5, 5, 5);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,7 +211,7 @@ a:hover{
     }
     .contant-box1:hover{
       /* filter: drop-shadow(0 10px 5px rgba(255, 255, 255, 0.178)); */
-      background: linear-gradient(45deg, rgba(255, 4, 242, 0.455) 0%, rgba(83, 212, 255, 0.441)  100%); 
+      background: linear-gradient(45deg, rgba(255, 4, 242, 0.455) 0%, rgba(69, 169, 202, 0.418)  100%); 
         transition: all .3s ease;  
         transform: scale(1.01);  
     }
