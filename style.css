@@ -5,7 +5,9 @@
   border: border-box;
   font-family: montserret;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body{ 
   background-color: rgb(0, 0, 0);
    z-index: 1;
@@ -65,16 +67,21 @@ body{
 }
 .nav-icon1{
   height: 45px;
-  width: 45px;
+   width: 45px;
   /* margin-left: 5px; */
   
   border-radius: 50px;
   font-size: 45px;
   padding-left: 5px;
   padding-top:2px ;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(232, 230, 230);
 }
- 
+.nav-icon1:hover{
+  box-shadow:  0px 10px 120px rgba(238, 0, 255, 0.575); 
+  background-color: #f1f1f1;
+  border: 2px solid rgb(238, 0, 255);
+  
+}
 div ul{
   float: right;
   margin-right: 2vm;
@@ -196,16 +203,7 @@ a:hover{
     left: 0;
   }
 }  */
-/* section{
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-   
-  height: calc(100vh - 80px);
-}  */
-/* .hi{
-  height: 300px;
-  width: 100;
-} */ 
+ 
 .container{
   /* display: cover; */
   width: 100%;
@@ -467,7 +465,7 @@ footer {
   
   display: flex;
   flex-wrap: wrap;
-  z-index: 99;
+  z-index: 50;
   justify-content: space-around;
 }
 
@@ -506,7 +504,7 @@ footer {
   color: #fff;
 }
 
-/* Responsive Design */
+/* Responsive footer Design */
 @media (max-width: 2000px) {
   footer {
     text-align: center;
