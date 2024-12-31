@@ -182,12 +182,14 @@ a:hover{
   
     
   }
+
+  
   .contant-box1{
-    background-color: rgb(255, 250, 250);
+    background-color:rgb(245, 245, 245);
     position: relative;
     padding: 20px;
-    height: 100%;
-    width: 70%;
+    height: 80vh;
+    width: 50vw;
     justify-content: space-between;
     transition: all .3s cubic-bezier(0,0,.5,1);
     font-size: 16px;
@@ -214,30 +216,37 @@ a:hover{
     background-size: cover;
    
  
-    .vidfram{
-      height: 100%;
-      width: 100%;
+    /* .imagefram{
+       height: 50vh;
+      width: 30vw; 
       align-items: center;
       justify-content:center;
+      background-size: cover;  
+      
+    } */
+    img{
+      height: 70vh;
+      width: 30vw;
+      border-radius: 2%;
       background-size: cover;
+    }
+   .imgContainer{
+    width: auto;
+    height: auto;
+    top: 10%; 
+    /* background-color: red; */
+    border-radius: 50px;
+    background-size: cover;
+  } 
       
     }
-       .vidfram video {
-      width: 100%;
-      top: 10%; 
-      zoom: 4;
-      border-radius: 6px;
-      } 
-    }
+    
     .contant-box1:hover{
       /* filter: drop-shadow(0 10px 5px rgba(255, 255, 255, 0.178)); */
       background: linear-gradient(45deg, rgba(255, 4, 242, 0.455) 0%, rgba(69, 169, 202, 0.418)  100%); 
         transition: all .3s ease;  
         transform: scale(1.01);  
         box-shadow:  0px 10px 120px rgba(90, 255, 25, 0.418);
-        .btn a{
-          color: rgb(255, 255, 255);;
-        } 
     }
   
     .button-wrapper{
@@ -245,7 +254,6 @@ a:hover{
 
 
       .btn {
-        
         border: none;
         padding: 12px 24px;
         border-radius: 24px;
@@ -253,10 +261,11 @@ a:hover{
         font-size: 0.8rem;  
         letter-spacing: 1.5px;  
         cursor: pointer;
+        /* color: #000000; */
       }
       
       .btn a {
-        color: black;
+        color: #000000;
         border: none;
         padding: 12px 24px;
         border-radius: 24px;
@@ -275,6 +284,7 @@ a:hover{
         margin-left: 10px;
       }
       .outline {
+        
         background: transparent;
         color: rgba(0, 212, 255, 0.9);
         border: 1px solid rgba(14, 255, 235, 0.6);
